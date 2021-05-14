@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="sass/style.css">
+    <link rel="stylesheet" href="sass/query.css">
+</head>
+<body>
+    
+    <!--------------------------------------- NAV BAR ------------------------------------->
+    <nav class="container-fluid">
+        <div class="nav-upper row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-6">
+                <div class="logo">
+                  <a href="#">LOVELEET JOSHI</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-6">
+                <div class="nav-search">
+                  <input class="search-box" type="search" id="searchbox" placeholder="Search Products....">
+                </div>
+                <span class="search-box-icon">
+                  <a class=" nav-btn btn" href="#" role="button"><i class="fa fa-search"></i></a>
+                </span>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="nav-right">
+                  <a class=" nav-btn btn" href="signup.html" role="button">SIGNUP</a>
+                  <a class=" nav-btn btn" href="login.html" role="button">LOGIN</a>
+                  <a class=" nav-btn btn" href="#" role="button"><i class="fa fa-shopping-cart"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+          <nav class="nav-lower navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-lower-a nav-item nav-link" href="index.html">HOME </a>
+                <a class="nav-item nav-link" href="#">WHAT'S NEW</a>
+                <li class="nav-item dropdown">
+                  <a class="categories nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    CATEGORIES
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#" style="margin-left: 0;">Mens Shirts</a>
+                    <a class="dropdown-item" href="#">Mens Trouser</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Girls Dresses</a>
+                  </div>
+                </li>
+                <a class="nav-item nav-link" href="aboutus.html">ABOUT US</a>
+                <a class="nav-item nav-link active" href="contact.html">CONTACT US <span class="sr-only">(current)</span></a> 
+              </div>
+            </div>
+          </nav>
+        </div>
+    </nav>
+
+    <!-- ----------------------------Contact Section--------------------------------- -->
+    <section class="sec-contact">
+        <div class="container">
+            <div class="row">
+                <div class="form-container col-md-7 col-sm-7">
+                    <h2>LEAVE A MESSAGE</h2>
+                    <form>
+                        <div class="row">
+                          <div class="col-md-6 col-sm-6">
+                            <input type="text" class="form-control" placeholder="First Name">
+                          </div>
+                          <div class="col-md-6 col-sm-6">
+                            <input type="text" class="form-control" placeholder="Last Name">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-6 col-sm-6">
+                            <input type="text" class="form-control" placeholder="Your Email">
+                          </div>
+                          <div class="col-md-6 col-sm-6">
+                            <input type="text" class="form-control" placeholder="Your Number">
+                            </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-12 col-sm-12">
+                            <textarea name="message" id="message" cols="115" rows="5" placeholder="Your Message"></textarea>
+                          </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                                <input class="submit btn btn-primary" type="submit" value="SUBMIT">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="location-container col-md-4 col-sm-4">
+                    <h2>LET'S BE IN TOUCH</h2>
+                    <div>
+                        <p>Creativity is just connecting things. When you ask creative people.</p>
+                    </div>
+                    <div class="location-details">
+                        <ul>
+                            <li>
+                                <span class="fa fa-map-marker"></span>
+                                <p>Haldwani, Uttrakhand ,India </p>
+                            </li>
+                            <li>
+                                <span class="fa fa-phone"></span>
+                                <p> +91 7492665477 </p>
+                            </li>
+                            <li>
+                                <span class="fa fa-envelope-o"></span>
+                                <p>info@loveleetjoshi.com </p>
+                            </li>
+                            <li>
+                                <span class="fa fa-globe"></span>
+                                <p>loveleetjoshi.com </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------------------------FOOTER --------------------------------------- -->
+    <footer> 
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-sm-6">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">What's New</a></li>
+            </ul>
+          </div>
+          <div class="social-media col-6 col-sm-6">
+            <ul>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright row">
+          <div class="col-sm-7">
+            <div class="row text-centre">
+              <p>Copyright © 2019. All Rights Reserved.</p>
+            </div>
+          </div>
+          <div class="col-sm-5 text-sm-right">
+            <img src="img/payment.png" alt="payment">
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="style.js"></script>
+</body>
+</html>
+

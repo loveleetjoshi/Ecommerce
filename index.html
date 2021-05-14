@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="sass/style.css" />
+    <link rel="stylesheet" href="sass/query.css" />
+  </head>
+  <body>
+    <a href="description.html?data1|data2|data3">Go to filename</a>
+
+    <!--------------------------------------- NAV BAR ------------------------------------->
+    <nav class="container-fluid">
+      <div class="nav-upper row">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-6">
+          <div class="logo">
+            <a href="#">LOVELEET JOSHI</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-6">
+          <div class="nav-search">
+            <input
+              class="search-box"
+              type="search"
+              id="searchbox"
+              placeholder="Search Products...."
+            />
+          </div>
+          <span class="search-box-icon">
+            <a class="nav-btn btn" href="#" role="button"
+              ><i class="fa fa-search"></i
+            ></a>
+          </span>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="nav-right">
+            <a class="nav-btn btn" href="signup.html" role="button">SIGNUP</a>
+            <a class="nav-btn btn" href="login.html" role="button">LOGIN</a>
+            <a class="nav-btn btn" href="#" role="button"
+              ><i class="fa fa-shopping-cart"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <nav class="nav-lower navbar navbar-expand-lg navbar-light">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-lower-a nav-item nav-link active" href="#"
+                >HOME <span class="sr-only">(current)</span></a
+              >
+              <a class="nav-item nav-link" href="#">WHAT'S NEW</a>
+              <li class="nav-item dropdown">
+                <a
+                  class="categories nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  CATEGORIES
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#" style="margin-left: 0"
+                    >Mens Shirts</a
+                  >
+                  <a class="dropdown-item" href="#">Mens Trouser</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Girls Dresses</a>
+                </div>
+              </li>
+              <a class="nav-item nav-link" href="aboutus.html">ABOUT US</a>
+              <a class="nav-item nav-link" href="contact.html">CONTACT US</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </nav>
+
+    <!-- ------------------------------SLIDER---------------------------------------- -->
+    <section class="sec-slider">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/slider-1.jpg" alt="banner1" style="width: 100%" />
+          </div>
+          <div class="carousel-item">
+            <img src="img/slider-1.jpg" alt="banner2" style="width: 100%" />
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ------------------------LATEST PRODUCT LISTING------------------------------ -->
+    <section class="sec-latest-p">
+      <div class="container">
+        <div class="row">
+          <div class="heading col-md-12 text-center">
+            <h1>LATEST PRODUCTS</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-sm-3">
+            <div class="product-top">
+              <a id="2" onclick="productDescription(this.id)" href="description.html?2"><img src="img/p1.jpg" alt="shirt1"
+              /></a>
+              <div class="overlay-right">
+                <button type="button" class="btn btn-secondary" title="Buy Now">
+                  <i class="fa fa-eye"></i>
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  title="Add To Wishlist"
+                >
+                  <i class="fa fa-heart-o"></i>
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  title="Add To Cart"
+                >
+                  <i class="fa fa-shopping-cart"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="product-bottom text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <h3>Mens Casual Premium Slim Fit T-Shirts</h3>
+              <h5>₹892</h5>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-3">
+            <div class="product-top">
+              <a id="4" onclick="productDescription(this.id)" href="description.html?4"><img src="img/p2.jpg" alt="shirt1" /></a>
+              <div class="overlay-right">
+                <button type="button" class="btn btn-secondary" title="Buy Now">
+                  <i class="fa fa-eye"></i>
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  title="Add To Wishlist"
+                >
+                  <i class="fa fa-heart-o"></i>
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  title="Add To Cart"
+                >
+                  <i class="fa fa-shopping-cart"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="product-bottom text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <h3>Mens Casual Slim Fit</h3>
+              <h5>₹639.6</h5>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-3">
+            <div class="product-top">
+              <a id="18" onclick="productDescription(this.id)" href="description.html?18"><img src="img/p3.jpg" alt="shirt1" /></a>
+              <div class="overlay-right">
+                <button type="button" class="btn btn-secondary" title="Buy Now">
+                  <i class="fa fa-eye"></i>
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  title="Add To Wishlist"
+                >
+                  <i class="fa fa-heart-o"></i>
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  title="Add To Cart"
+                >
+                  <i class="fa fa-shopping-cart"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="product-bottom text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <h3>MBJ Women's Solid Short Sleeve Boat Neck V</h3>
+              <h5>₹394</h5>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-3">
+            <div class="product-top">
+              <a id="19" onclick="productDescription(this.id)" href="description.html?19"><img src="img/p4.jpg" alt="shirt1" /></a>
+              <div class="overlay-right">
+                <button type="button" class="btn btn-secondary" title="Buy Now">
+                  <i class="fa fa-eye"></i>
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  title="Add To Wishlist"
+                >
+                  <i class="fa fa-heart-o"></i>
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  title="Add To Cart"
+                >
+                  <i class="fa fa-shopping-cart"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="product-bottom text-center">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <h3>Opna Women's Short Sleeve Moisture</h3>
+              <h5>₹318</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------------------Top Selling Products----------------- -->
+    <section class="sec-topselling-p container">
+      <div class="row">
+        <div class="heading col-md-12 text-center">
+          <h1>TOP SELLING PRODUCTS</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 col-sm-3">
+          <div class="product-top">
+            <a  id="3" onclick="productDescription(this.id)" href="description.html?3"
+              ><img
+                src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+                alt="shirt1"
+            /></a>
+            <div class="overlay-right">
+              <button type="button" class="btn btn-secondary" title="Buy Now">
+                <i class="fa fa-eye"></i>
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                title="Add To Wishlist"
+              >
+                <i class="fa fa-heart-o"></i>
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                title="Add To Cart"
+              >
+                <i class="fa fa-shopping-cart"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="product-bottom text-center">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <h3>Mens Cotton Jacket</h3>
+            <h5>₹2239.6</h5>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-3">
+          <div class="product-top">
+            <a id="15" onclick="productDescription(this.id)" href="description.html?15"
+              ><img
+                src="https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg"
+                alt="shirt1"
+            /></a>
+            <div class="overlay-right">
+              <button type="button" class="btn btn-secondary" title="Buy Now">
+                <i class="fa fa-eye"></i>
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                title="Add To Wishlist"
+              >
+                <i class="fa fa-heart-o"></i>
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                title="Add To Cart"
+              >
+                <i class="fa fa-shopping-cart"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="product-bottom text-center">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <h3>Women's 3-in-1 Snowboard Jacket Winter Coats</h3>
+            <h5>₹2279.6</h5>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-3">
+          <div class="product-top">
+            <a id="16" onclick="productDescription(this.id)" href="description.html?16"
+              ><img
+                src="https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg"
+                alt="shirt1"
+            /></a>
+            <div class="overlay-right">
+              <button type="button" class="btn btn-secondary" title="Buy Now">
+                <i class="fa fa-eye"></i>
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                title="Add To Wishlist"
+              >
+                <i class="fa fa-heart-o"></i>
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                title="Add To Cart"
+              >
+                <i class="fa fa-shopping-cart"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="product-bottom text-center">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <h3>Women's Leather Moto Biker Jacket</h3>
+            <h5>₹1198</h5>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-3">
+          <div class="product-top">
+            <a id="20" onclick="productDescription(this.id)" href="description.html?20"
+              ><img
+                src="https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg"
+                alt="shirt1"
+            /></a>
+            <div class="overlay-right">
+              <button type="button" class="btn btn-secondary" title="Buy Now">
+                <i class="fa fa-eye"></i>
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                title="Add To Wishlist"
+              >
+                <i class="fa fa-heart-o"></i>
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                title="Add To Cart"
+              >
+                <i class="fa fa-shopping-cart"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="product-bottom text-center">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <h3>DANVOUY Womens T Shirt Casual Cotton Short</h3>
+            <h5>₹519.6</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------------------FOOTER --------------------------------------- -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-sm-6">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">What's New</a></li>
+            </ul>
+          </div>
+          <div class="social-media col-6 col-sm-6">
+            <ul>
+              <li>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright row">
+          <div class="col-sm-7">
+            <div class="row text-centre">
+              <p>Copyright © 2019. All Rights Reserved.</p>
+            </div>
+          </div>
+          <div class="col-sm-5 text-sm-right">
+            <img src="img/payment.png" alt="payment" />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="style.js"></script>
+
+    <script>
+      
+
+    </script>
+  </body>
+</html>

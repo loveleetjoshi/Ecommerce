@@ -1,0 +1,74 @@
+@media (max-width: 767px) {
+  nav .logo a {
+    font-size: 2rem;
+  }
+  nav .search-box {
+    padding: 0.5rem 2rem 0.5rem 1rem;
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+  }
+  nav .search-box-icon a {
+    padding-bottom: .5rem;
+    width: 4rem;
+  }
+  nav .nav-btn {
+    font-size: 1.2rem;
+    margin-left: .2rem;
+    padding: .5rem 0;
+  }
+  nav .nav-btn i {
+    font-size: 1.5rem;
+  }
+  nav .nav-lower {
+    width: 95%;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .heading {
+    padding-top: 2rem;
+  }
+  footer li {
+    display: block;
+  }
+  footer .social-media ul {
+    padding-left: 10rem;
+  }
+  footer .social-media ul li {
+    margin-left: 0;
+  }
+  footer .copyright {
+    margin-top: 0rem;
+    padding-top: 1rem;
+    border-top: .2rem solid;
+  }
+  footer img {
+    padding-left: 3rem;
+  }
+  .form-container {
+    margin-left: 3rem;
+  }
+  .location-container {
+    margin: 1rem 3rem 0 3rem;
+  }
+  .login-container {
+    width: 100%;
+  }
+  .login-container .submit {
+    margin: 0 8rem;
+  }
+  .login-container .forget {
+    width: 100%;
+  }
+  .sec-signup .login-container {
+    width: 90%;
+  }
+  .sec-signup input {
+    width: 100%;
+  }
+  .sec-signup .submit {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+}
+/*# sourceMappingURL=query.css.map */
